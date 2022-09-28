@@ -76,10 +76,13 @@
     flex: none;
     order: 1;
     flex-grow: 0;
+    margin-left: 24px;
+
 }
 .socials-header {
     width: 117px;
     height: 24px;
+    margin-left: 24px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -88,5 +91,13 @@
     color: #7F8CFF;
     flex: none;
     order: 2;
+    flex-grow: 0;
+}
+.social-media {
+    margin-left: 24px;
+    width: 170.17px;
+    height: 20px;
+    flex: none;
+    order: 3;
     flex-grow: 0;
 }
