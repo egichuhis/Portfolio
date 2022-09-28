@@ -97,7 +97,7 @@
 }
 
 .social-media {
-    display: flex;
+  display: flex;
   margin-left: 24px;
   width: 170.17px;
   justify-content: space-between;
@@ -105,4 +105,16 @@
   flex: none;
   order: 3;
   flex-grow: 0;
+}
+
+.social-media a:hover {
+  color: #6070ff;
+}
+
+.social-media a:enabled {
+  color: #fff;
+}
+
+.social-media a:disabled {
+  color: #5e6c84;
 }
