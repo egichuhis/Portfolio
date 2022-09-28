@@ -14,7 +14,6 @@
     position: absolute;
     width: 375px;
     height: 72px;
-     background-color: blue;
 }
 .nav a {
     font-family: 'Poppins';
@@ -47,7 +46,6 @@
     text-align: center;
     left: 0;
     top: 0;
-    background-color: red;
 }
 .intro-text {
     width: 327px;
