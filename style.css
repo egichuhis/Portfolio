@@ -98,13 +98,13 @@
 
 .social-media {
   display: flex;
-  margin-left: 24px;
   width: 170.17px;
   justify-content: space-between;
   height: 20px;
   flex: none;
   order: 3;
   flex-grow: 0;
+  list-style: none;
 }
 
 .social-media a:hover {
