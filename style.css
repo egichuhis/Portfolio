@@ -32,12 +32,9 @@
   text-decoration:none;
 }
 
-.nav span {
-  width: 28px;
-  height: 92px;
-  display: flex;
-  align-items: center;
-  text-align: center;
+.nav button {
+  background-color: #fff;
+  border: none;
 }
 
 .headline-section {
