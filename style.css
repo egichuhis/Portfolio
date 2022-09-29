@@ -52,19 +52,21 @@
   top: 0;
 }
 
-.intro-text {
+.headline-section h1 {
   width: 327px;
   height: 150px;
-  font-style: normal;
   font-weight: 700;
   font-size: 40px;
+  text-align: justify;
+  margin-left: 24px;
   line-height: 52px;
   display: flex;
   align-items: center;
-  color: #172b4d;
+  color: #172B4D;
   flex: none;
   order: 0;
   flex-grow: 0;
+  padding-top: 40px;
 }
 
 .details-text {
@@ -79,6 +81,8 @@
   order: 1;
   flex-grow: 0;
   margin-left: 24px;
+  text-align: justify;
+  margin-top: -10px;
 }
 
 .socials-header {
