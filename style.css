@@ -443,7 +443,7 @@ color: #000000;
 .lang-list {
   display: flex;
   flex-direction: column;
-  order: 4;
+  order: 0;
   list-style: none;
   align-self: flex-start;
   justify-content: space-between;
@@ -473,5 +473,15 @@ align-self: center;
 .lang-list li img {
 width: 48px;
 height: 48px;
+}
+
+.contact-me {
+  background-image: url(./assets/images/Contact\ me.png);
+ /* background-color: #6070FF; */
+display: flex;
+flex-direction: column;
+order: 4;
+height: 779px;
+
 }
 
