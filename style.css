@@ -475,13 +475,70 @@ width: 48px;
 height: 48px;
 }
 
-.contact-me {
-  background-image: url(./assets/images/Contact\ me.png);
- /* background-color: #6070FF; */
-display: flex;
-flex-direction: column;
-order: 4;
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  order: 4;
+width: 375px;
 height: 779px;
-
+background: url(./assets/images/Contact\ me.png);
+background-size:cover;
+margin-top: 100px;
 }
+
+.contact-div {
+ display: flex;
+  flex-direction: column;
+  order: 0;
+background-image: url(./assets/images/contact\ form\ shapes-mobile@2x.png);
+background-size:100% auto;
+text-align: center;
+align-items: center;
+justify-content: center;
+padding-top: 130px;
+}
+
+
+.contact-section h2 {
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+}
+
+.contact-section h5 {
+width: 327px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+text-align: center;
+color: #EBEBFF;
+margin-top: 0px;
+}
+
+.your-name .email {
+background: #FFFFFF;
+border: 1px solid #CFD8DC;
+border-radius: 8px;
+}
+
+.message {
+left: 16px;
+right: 38px;
+top: 15px;
+bottom: 15px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+color: #B3BAC5;
+}
+
 
