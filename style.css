@@ -143,13 +143,27 @@
 
 .card1 {
     margin-top: 140px;
+}
 
+.card1 .portfolio-snapshot {
+    background: url(./assets/images/Snapshoot\ Portfolio.png);
+}
+
+.card2 .portfolio-snapshot {
+    background: url(./assets/images/Snapshoot\ Portfolio\ \(1\).png);
+}
+
+.card3 .portfolio-snapshot {
+    background: url(./assets/images/Snapshoot\ Portfolio\ \(2\).png);
+}
+
+.card4 .portfolio-snapshot {
+    background: url(./assets/images/Snapshoot\ Portfolio\ \(3\).png);
 }
 
 .portfolio-snapshot {
   width: 295px;
   height: 220px;
-  background: url(./assets/images/Snapshoot\ Portfolio.png);
   border-radius: 8px;
   flex: none;
   order: 0;
