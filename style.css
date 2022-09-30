@@ -495,7 +495,7 @@ background-size:100% auto;
 text-align: center;
 align-items: center;
 justify-content: center;
-padding-top: 130px;
+padding-top: 110px;
 }
 
 
@@ -512,7 +512,6 @@ color: #FFFFFF;
 
 .contact-section h5 {
 width: 327px;
-font-family: 'Poppins';
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
@@ -522,23 +521,72 @@ color: #EBEBFF;
 margin-top: 0px;
 }
 
-.your-name .email {
-background: #FFFFFF;
+.name {
+background: #fff;
 border: 1px solid #CFD8DC;
+height: 48px;
+width: 327px;
 border-radius: 8px;
+margin-bottom: 20px;
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 20px;
+display: flex;
+align-items: center;
+color: #172B4D;
+}
+
+.email {
+  background: #fff;
+border: 1px solid #CFD8DC;
+height: 48px;
+width: 327px;
+border-radius: 8px;
+margin-bottom: 20px;
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 20px;
+display: flex;
+align-items: center;
+color: #172B4D;
+
 }
 
 .message {
-left: 16px;
-right: 38px;
-top: 15px;
-bottom: 15px;
-font-family: 'Poppins';
+width: 327px;
+height: 170px;
 font-style: normal;
 font-weight: 400;
 font-size: 15px;
 line-height: 24px;
 color: #B3BAC5;
+border-radius: 8px;
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 20px;
+display: flex;
+align-items: center;
+color: #172B4D;
+margin-bottom: 20px;
+
+}
+
+.get-touch-btn {
+ width: 140px;
+height: 48px;
+  background: #FFFFFF;
+border-radius: 8px;
+color: #6070FF;
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 24px;
+border: none;
+align-self: flex-start;
+margin-left: 24px;
 }
 
 
