@@ -394,5 +394,38 @@ color: #000000;
   margin-left: 150px;
 }
 
+.lang-list {
+  display: flex;
+  flex-direction: column;
+  order: 4;
+  list-style: none;
+  align-self: flex-start;
+  justify-content: space-between;
+}
 
+.lang-list li {
+  background: #F7F7F9;
+  margin-bottom: 15px;
+  border-radius: 10px;
+display: flex;
+}
+
+
+.lang-list li span {
+  padding-left: 40px;
+  padding-right: 125px;
+  text-align: center;
+justify-content: center;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 20px;
+color: #253858;
+align-self: center;
+}
+
+.lang-list li img {
+width: 48px;
+height: 48px;
+}
 
