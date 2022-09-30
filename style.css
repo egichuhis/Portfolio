@@ -327,3 +327,18 @@ order: 1;
 flex-grow: 0;
 text-align: left;
 }
+
+.bottom-socials-div {
+  display: flex;
+  order: 4;
+  box-sizing: border-box;
+  flex-direction: column;
+}
+
+#bottom-h {
+align-self: flex-start;
+}
+
+#bottom-d {
+  align-self: flex-start;
+}
