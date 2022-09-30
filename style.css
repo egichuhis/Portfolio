@@ -288,3 +288,42 @@
   text-align: center;
   letter-spacing: 0.03em;
 }
+
+.about-myself {
+    display: flex;
+    order: 4;
+     box-sizing: border-box;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-header {
+  width: 327px;
+height: 101px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+display: flex;
+align-items: center;
+color: #172B4D;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.about-me {
+  width: 327px;
+height: 144px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #344563;
+flex: none;
+order: 1;
+flex-grow: 0;
+text-align: left;
+}
