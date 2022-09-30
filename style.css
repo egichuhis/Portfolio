@@ -122,6 +122,155 @@
   color: #5e6c84;
 }
 
-.works-section {
-  
+.card-container {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  gap: 12px;
+  width: 327px;
+  height: 552px;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  margin-top: 57px;
+  margin-left: 24px;
+}
+
+.card1 {
+    margin-top: 140px;
+
+}
+
+.portfolio-snapshot {
+  width: 295px;
+  height: 220px;
+  background: url(./assets/images/Snapshoot\ Portfolio.png);
+  border-radius: 8px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.project-title {
+  width: 295px;
+  height: 36px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  text-align: start;
+  margin-top: 0;
+}
+
+.canopy-list {
+  display: flex;
+  justify-content: space-between;
+  margin-left: -20px;
+  margin-top: -30px;
+  text-align: start;
+}
+
+.canopy-list-item {
+  color: #c1c7d0;
+  margin-right: 35px;
+}
+
+.canopy-txt {
+  width: 55px;
+  height: 16px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #344563;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.backend-txt {
+  width: 88px;
+  height: 16px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.year-txt {
+  width: 29px;
+  height: 16px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.project-description {
+  width: 295px;
+  height: 76px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  text-align: left;
+}
+
+.stack-used {
+  display: flex;
+  list-style: none;
+  margin-left: -38px;
+}
+
+.stack-item {
+  background: #ebebff;
+  border-radius: 8px;
+  margin-right: 20px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.btn-see-proj-div {
+  display: flex;
+}
+
+.btn-see-proj {
+  color: #396df2;
+  border: #396df2 1px solid;
+  border-radius: 10px;
+  padding: 8px;
+  font-weight: 500;
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
