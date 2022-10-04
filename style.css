@@ -270,7 +270,7 @@
   flex: none;
   order: 0;
   flex-grow: 0;
-  float:left;
+  float: right; /* shifting the floats to the right and checking the effect*/
 }
 
 .btn-see-proj-div {
