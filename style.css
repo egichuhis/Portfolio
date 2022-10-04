@@ -270,7 +270,7 @@
   flex: none;
   order: 0;
   flex-grow: 0;
-  float: right; /* shifting the floats to the right and checking the effect*/
+  float: right; /* using float right might not be ideal i think you can use float: left; and also style the other items individually */
 }
 
 .btn-see-proj-div {
