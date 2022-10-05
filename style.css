@@ -597,6 +597,14 @@
     margin-right: 5%;
   }
 
+  .header .nav span a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+  }
+
   .nav button {
     display: none;
   }
