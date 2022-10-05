@@ -637,11 +637,17 @@
   }
 
   .card-container {
+    display: flex;
     width: 80vw;
     flex-direction: row;
     justify-content: space-around;
     align-items:flex-start;
     height: auto;
+  }
+
+  .card-container card2 .portfolio-snapshot {
+    display: flex;
+    flex-direction: column-reverse;
   }
 
   .portfolio-snapshot {
@@ -663,5 +669,38 @@
     background-color: #4053FC;
     height: 35px;
   }
+
+  .about-myself {
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+    margin: auto;
+  }
+
+  .about-myself-socials {
+    width: 50%;
+  }
+
+  .about-myself-skills {
+    width: 50%;
+    font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height, or 120% */
+
+display: flex;
+align-items: center;
+
+/* Theme 1 / Neutrals 3 */
+
+color: #344563;
+
+  }
+
+
+
+
+
 
 }
