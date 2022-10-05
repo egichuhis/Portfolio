@@ -684,23 +684,22 @@
   .about-myself-skills {
     width: 50%;
     font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 24px;
-/* identical to box height, or 120% */
-
-display: flex;
-align-items: center;
-
-/* Theme 1 / Neutrals 3 */
-
-color: #344563;
-
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #344563;
   }
 
+  .social-media#bottom-d {
+margin-left: -40px;
+  }
 
-
-
+ .btn-resume {
+  margin-top: 15px;
+  margin-left: 50px;
+ }
 
 
 }
