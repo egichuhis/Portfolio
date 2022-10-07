@@ -32,6 +32,10 @@
   text-decoration: none;
 }
 
+.nav span {
+  display: none;
+}
+
 .nav button {
   background-color: #fff;
   border: none;
@@ -42,7 +46,7 @@
   display: flex;
   flex-direction: column;
   background-image: url(./assets/images/header-shapes\ mobile.png);
-  background-size: cover;
+  background-size: 100% auto;
   position: absolute;
   width: 375px;
   height: 587.15px;
@@ -252,7 +256,7 @@
 }
 
 .stack-used {
-  display: flex;
+  /* display: flex; */
   list-style: none;
   margin-left: -38px;
 }
@@ -270,6 +274,7 @@
   flex: none;
   order: 0;
   flex-grow: 0;
+  float: left;
 }
 
 .btn-see-proj-div {
@@ -580,4 +585,128 @@
   height: 5px;
   border-radius: 10px;
   margin-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .header .nav {
+    width: 100vw;
+  }
+
+  .header .nav span {
+    display: flex;
+    margin-right: 5%;
+  }
+
+  .header .nav span a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+  }
+
+  .nav button {
+    display: none;
+  }
+
+  .headline-section {
+    width: 100vw;
+    align-items: center;
+    text-align: center;
+  }
+
+  .headline-section h1 {
+    width: 80vw;
+  }
+
+  .headline-section .details-text {
+    width: 70vw;
+    margin-right: 10%;
+  }
+
+  .headline-section .socials-header {
+    width: 80vw;
+    text-align: left;
+    margin: -5% -2% 1% 0;
+  }
+
+  .headline-section .social-media {
+    width: 20vw;
+    align-self: flex-start;
+    margin: 0 0 0 7%;
+  }
+
+  .card-container {
+    display: flex;
+    width: 80vw;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: auto;
+  }
+
+  .portfolio-snapshot {
+    align-self: center;
+  }
+
+  .card-container .card2 .portfolio-snapshot {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .portfolio-details {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .btn-see-proj-div {
+    display: flex;
+    order: 1;
+  }
+
+  .btn-see-proj-div .btn-see-proj {
+    color: #fff;
+    background-color: #4053fc;
+    height: 35px;
+  }
+
+  .about-myself {
+    display: flex;
+    flex-direction: row;
+    width: 85vw;
+  }
+
+  .about-myself-socials {
+    width: 50%;
+    justify-content: center;
+  }
+
+  .about-myself-skills {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+
+    /* align-items: center; */
+    color: #344563;
+    width: 50%;
+  }
+
+  .social-media#bottom-d {
+    margin-left: -40px;
+  }
+
+  .btn-resume {
+    margin-top: 15px;
+    margin-left: 50px;
+  }
+
+  .contact-section {
+    width: 100vw;
+  }
+
+  .get-touch-btn {
+    align-self: center;
+  }
 }
