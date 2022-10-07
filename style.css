@@ -674,15 +674,13 @@
     display: flex;
     flex-direction: row;
     width: 90vw;
-    margin: auto;
   }
 
   .about-myself-socials {
-    width: 50%;
+    /* width: 50%; */
   }
 
   .about-myself-skills {
-    width: 50%;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -693,12 +691,20 @@
   }
 
   .social-media#bottom-d {
-margin-left: -40px;
+    margin-left: -40px;
   }
 
  .btn-resume {
   margin-top: 15px;
   margin-left: 50px;
+ }
+
+ .contact-section {
+  width: 100vw;
+ }
+
+ .get-touch-btn {
+  align-self: center;
  }
 
 }
