@@ -673,11 +673,12 @@
   .about-myself {
     display: flex;
     flex-direction: row;
-    width: 90vw;
-  }
+    width: 85vw;
+ }
 
   .about-myself-socials {
-    /* width: 50%; */
+    width: 50%;
+    justify-content: center;
   }
 
   .about-myself-skills {
@@ -686,8 +687,9 @@
     font-size: 20px;
     line-height: 24px;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     color: #344563;
+    width: 50%;
   }
 
   .social-media#bottom-d {
